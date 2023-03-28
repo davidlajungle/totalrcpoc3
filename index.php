@@ -25,3 +25,4 @@ $password = 'Password@12345';
 $mysqli2 = mysqli_init();
 mysqli_ssl_set($mysqli2, null, null, null, null, null);
 $mysqli2 = mysqli_real_connect($mysqli2, $host, $user, $password, $db, 3306);
+var_dump($mysqli2);
