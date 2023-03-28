@@ -1,6 +1,6 @@
 <?php
 
 echo '<pre>';
-$e = get_env();
+$e = getenv();
 var_dump($e);
 die();
