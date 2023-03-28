@@ -15,12 +15,12 @@ $db = null;
 
 var_dump($user, $password);
 
-$mysqli = new mysqli($host, $user, $password, $db);
+$mysqli = new mysqli_real_connect($host, $user, $password, $db, 3306);
 var_dump($mysqli);
 
 $user = 'admins@azrimdbrcnews';
-$mysqli2 = new mysqli($host, $user, 'Password@12345', $db);
+$mysqli2 = new mysqli_real_connect($host, $user, 'Password@12345', $db, 3306);
 var_dump($mysqli2);
 
-$mysqli3 = new mysqli($host, $user, 'Password@12345', 'test');
+$mysqli3 = new mysqli_real_connect($host, $user, 'Password@12345', 'test', 3306);
 var_dump($mysqli3);
