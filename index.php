@@ -2,9 +2,9 @@
 
 echo '<pre>';
 $e = getenv();
-var_dump($e);
+// var_dump($e);
 echo '======';
-var_dump($_SERVER);
+// var_dump($_SERVER);
 
 $host = 'azrimdbrcnews.mariadb.database.azure.com';
 $user = getenv('APPSETTING_MariaDbUser');
@@ -14,7 +14,7 @@ $db = null;
 // $con=mysqli_init(); mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL); mysqli_real_connect($con, "azrimdbrcnews.mariadb.database.azure.com", "admins@azrimdbrcnews", {your_password}, {your_database}, 3306);
 
 var_dump($user, $password);
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+// mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 // $mysqli = mysqli_init();
 // mysqli_ssl_set($mysqli, null, null, null, null, null);
