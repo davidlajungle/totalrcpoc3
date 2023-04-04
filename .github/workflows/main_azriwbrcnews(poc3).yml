@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'azriwbrcnews'
           slot-name: 'poc3'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3B87604F5E734837AC86E2CB455511DC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_67146273BFD54C30B4AB9536300A45F1 }}
           package: .
